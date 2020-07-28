@@ -10,13 +10,23 @@ import UIKit
 
 class ViewController4: UIViewController {
 
+    @IBOutlet weak var textField: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func learnButton(_ sender: Any) {
+        textField.isHidden = !textField.isHidden
+    }
+    @IBAction func petitionButton(_ sender: Any) {
+    }
+    
+    @IBAction func donateButton(_ sender: Any) {
+    }
+    
+    
     /*
     // MARK: - Navigation
 

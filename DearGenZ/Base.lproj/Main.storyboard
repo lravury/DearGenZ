@@ -39,6 +39,9 @@
                                 <state key="normal" backgroundImage="pencil" catalog="system">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="petitionButton:" destination="vU7-Fc-VTj" eventType="touchUpInside" id="HXn-Op-BZa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5bf-Jr-v0Y">
                                 <rect key="frame" x="27" y="132.5" width="121" height="101"/>
@@ -48,6 +51,9 @@
                                 <state key="normal" backgroundImage="book.fill" catalog="system">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="learnButton:" destination="vU7-Fc-VTj" eventType="touchUpInside" id="b5u-pO-u5b"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U2G-A6-CNg">
                                 <rect key="frame" x="269" y="123.5" width="116" height="113"/>
@@ -57,6 +63,9 @@
                                 <state key="normal" backgroundImage="dollarsign.circle.fill" catalog="system">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="donateButton:" destination="vU7-Fc-VTj" eventType="touchUpInside" id="D4M-wc-bCq"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Donate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zV6-Rc-Zxh">
                                 <rect key="frame" x="299" y="238.5" width="57" height="23"/>
@@ -79,15 +88,25 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="this is my practice test. go on to another line. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QmG-6X-dKK">
+                                <rect key="frame" x="27" y="291" width="358" height="550"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <color key="tintColor" red="0.99918419120000002" green="0.99256068470000003" blue="0.67580550910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="qHa-5R-4ED"/>
                     </view>
+                    <connections>
+                        <outlet property="textField" destination="QmG-6X-dKK" id="SDQ-fL-vTP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="upS-ug-hBU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1739" y="121"/>
+            <point key="canvasLocation" x="-1739.1304347826087" y="120.53571428571428"/>
         </scene>
         <!--View Controller3-->
         <scene sceneID="D1W-Pc-GTE">
