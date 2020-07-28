@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController4: UIViewController {
 
-    @IBOutlet weak var textField: UILabel!
+    @IBOutlet weak var learnText: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -18,13 +18,16 @@ class ViewController4: UIViewController {
     }
     
     @IBAction func learnButton(_ sender: Any) {
-        textField.isHidden = !textField.isHidden
+        learnText.isHidden = !learnText.isHidden
     }
-    @IBAction func petitionButton(_ sender: Any) {
+    
+    @IBAction func petitionsButton(_ sender: Any) {
     }
     
     @IBAction func donateButton(_ sender: Any) {
     }
+    
+
     
     
     /*
