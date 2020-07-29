@@ -19,9 +19,10 @@ class ViewController3: UIViewController {
     }
     @IBAction func questionButton(_ sender: Any) {
         questionText.text = "What is Mental Health?"
+        learnText.text =
+        "Mental Health is how we as humans handle different life situations physically, socially, and emotionally."
     }
     @IBAction func learnButton(_ sender: Any) {
-        learnText.text = "Mental Health is how we as humans handle different life situations physically, socially, and emotionally."
     }
     @IBAction func listenPlaylists(_ sender: Any) {
         learnText.text = "Playlists"
