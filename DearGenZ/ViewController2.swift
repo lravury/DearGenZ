@@ -10,11 +10,26 @@ import UIKit
 
 class ViewController2: UIViewController {
 
+    @IBOutlet weak var ccTextOne: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+    
+    @IBAction func ccLearnButton(_ sender: Any) {
+        ccTextOne.text = "Learn Button Pressed"
+    }
+    
+    @IBAction func ccPetitionsButton(_ sender: Any) {
+        ccTextOne.text = "Petitions Button Pressed"
+    }
+    
+    @IBAction func ccDonateButton(_ sender: Any) {
+        ccTextOne.text = "Donate Button Pressed"
+    }
+    
     
 
     /*
