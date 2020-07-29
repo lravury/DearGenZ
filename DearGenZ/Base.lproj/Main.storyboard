@@ -97,9 +97,10 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="bx7-DA-LqP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xzn-ek-b9P">
-                                <rect key="frame" x="44" y="718" width="192" height="33"/>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xzn-ek-b9P">
+                                <rect key="frame" x="53" y="405" width="316" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.9983991981" green="0.94150638580000001" blue="0.58540958170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.25" height="0.25"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
                                 <state key="normal" title="Defund the Police Petition">
@@ -107,7 +108,7 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                 </state>
                                 <connections>
-                                    <action selector="pLink1:" destination="vU7-Fc-VTj" eventType="touchUpInside" id="CPE-zm-CG7"/>
+                                    <action selector="pLink1:" destination="vU7-Fc-VTj" eventType="touchUpInside" id="x3H-6u-nf7"/>
                                     <action selector="petitionLink:" destination="vU7-Fc-VTj" eventType="touchUpInside" id="fDL-q5-lvf"/>
                                 </connections>
                             </button>
@@ -118,6 +119,40 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uWU-lS-L1M">
+                                <rect key="frame" x="53" y="347" width="316" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.9983991981" green="0.94150638580000001" blue="0.58540958170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <state key="normal" title="Hands Up Act Petition"/>
+                                <connections>
+                                    <action selector="pLink2:" destination="vU7-Fc-VTj" eventType="touchUpInside" id="vQf-LK-cd4"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wX4-m9-f3e">
+                                <rect key="frame" x="53" y="464" width="316" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.9983991981" green="0.94150638580000001" blue="0.58540958170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <state key="normal" title="Stand with Breonna Taylor Petition"/>
+                                <connections>
+                                    <action selector="pLink3:" destination="vU7-Fc-VTj" eventType="touchUpInside" id="96B-GE-nO5"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEB-l5-sj7">
+                                <rect key="frame" x="50" y="520" width="319" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.9983991981" green="0.94150638580000001" blue="0.58540958170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <state key="normal" title="National Action Against Police Brutality"/>
+                                <connections>
+                                    <action selector="pLink4:" destination="vU7-Fc-VTj" eventType="touchUpInside" id="gDk-jl-DGJ"/>
+                                </connections>
+                            </button>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="defundPolice" translatesAutoresizingMaskIntoConstraints="NO" id="8h2-aM-UtG">
+                                <rect key="frame" x="24" y="607" width="364" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -126,6 +161,11 @@
                     <navigationItem key="navigationItem" id="WRT-el-JXC"/>
                     <connections>
                         <outlet property="learnText" destination="pEG-xP-KzL" id="Ux4-1I-OIe"/>
+                        <outlet property="pLink1" destination="xzn-ek-b9P" id="ZS7-kA-Njt"/>
+                        <outlet property="pLink2" destination="uWU-lS-L1M" id="kk5-JC-exI"/>
+                        <outlet property="pLink3" destination="wX4-m9-f3e" id="gZh-vb-37R"/>
+                        <outlet property="pLink4" destination="gEB-l5-sj7" id="YCs-LQ-7JL"/>
+                        <outlet property="policePicture" destination="8h2-aM-UtG" id="7gA-xg-gRd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="upS-ug-hBU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -543,6 +583,7 @@
         <image name="arrow.right" catalog="system" width="128" height="98"/>
         <image name="book.fill" catalog="system" width="128" height="100"/>
         <image name="checkmark.seal.fill" catalog="system" width="128" height="122"/>
+        <image name="defundPolice" width="2400" height="1600"/>
         <image name="dollarsign.circle.fill" catalog="system" width="128" height="121"/>
         <image name="music.note.list" catalog="system" width="128" height="113"/>
         <image name="pencil" catalog="system" width="128" height="113"/>
