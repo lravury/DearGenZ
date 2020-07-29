@@ -18,13 +18,15 @@ class ViewController4: UIViewController {
     }
     
     @IBAction func learnButton(_ sender: Any) {
-        learnText.isHidden = !learnText.isHidden
+        learnText.text = "this is text to learn"
     }
     
     @IBAction func petitionsButton(_ sender: Any) {
+        learnText.text = "this is links to petitions"
     }
     
     @IBAction func donateButton(_ sender: Any) {
+        learnText.text = "this is links to donate"
     }
     
 
