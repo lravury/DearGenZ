@@ -10,10 +10,24 @@ import UIKit
 
 class ViewController3: UIViewController {
 
+    @IBOutlet weak var questionText: UILabel!
+    @IBOutlet weak var learnText: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    @IBAction func questionButton(_ sender: Any) {
+        questionText.text = "What is Mental Health?"
+    }
+    @IBAction func learnButton(_ sender: Any) {
+        learnText.text = "Mental Health is how we as humans handle different life situations physically, socially, and emotionally."
+    }
+    @IBAction func listenPlaylists(_ sender: Any) {
+        learnText.text = "Playlists"
+    }
+    @IBAction func buttonThree(_ sender: Any) {
+        learnText.text = "Donate"
     }
     
 
