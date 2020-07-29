@@ -12,6 +12,10 @@ class ViewController3: UIViewController {
 
     @IBOutlet weak var questionText: UILabel!
     @IBOutlet weak var learnText: UILabel!
+    @IBOutlet weak var tipsText: UILabel!
+    @IBOutlet weak var tipOne: UILabel!
+    @IBOutlet weak var tipTwo: UILabel!
+    @IBOutlet weak var TipThree: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,6 +25,14 @@ class ViewController3: UIViewController {
         questionText.text = "What is Mental Health?"
         learnText.text =
         "Mental Health is how we as humans handle different life situations physically, socially, and emotionally."
+        tipsText.text =
+        "Tips to take care of your Mental Health"
+        tipOne.text =
+        "Make Time For Yourself To Relax"
+        tipTwo.text =
+        "Regularly Take Breaks Off of Electronics"
+        TipThree.text =
+        "Excercise and Explore Nature Often"
     }
     @IBAction func learnButton(_ sender: Any) {
     }
