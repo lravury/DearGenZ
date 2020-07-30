@@ -47,6 +47,7 @@ class ViewController3: UIViewController {
        //text
     //text
     //text
+    //text
 
     }
     @IBAction func learnButton(_ sender: Any) {
