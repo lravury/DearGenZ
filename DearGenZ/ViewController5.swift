@@ -19,7 +19,7 @@ class ViewController5: UIViewController {
     }
     
     @IBAction func gretaButton(_ sender: Any) {
-        bioText.text = "Greta Thunberg /n Greta is an activist"
+        bioText.text = "Greta Thunberg \n Greta is an activist"
     }
     
     /*
