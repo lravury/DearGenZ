@@ -43,11 +43,23 @@ class ViewController3: UIViewController {
         let attributedString3 = NSAttributedString(string: info, attributes:myAttribute3)
     paraText.attributedText = attributedString3
    paraText.textAlignment = NSTextAlignment.center
-       
+        podText.text = "Podcasts"
+       //text
+    //text
 
     }
     @IBAction func learnButton(_ sender: Any) {
         stressButton.isHidden = true
+        guidedButton.isHidden = true
+        riseButton.isHidden = true
+        walkButton.isHidden = true
+        terribleButton.isHidden = true
+        miniButton.isHidden = true
+        infoText.isHidden = false
+        paraText.isHidden = false
+        learnText.isHidden = false
+        podText.isHidden = true
+        
     }
     @IBAction func guidedButton(_ sender: Any) {
         let url = URL (string: "https://open.spotify.com/user/spotify/playlist/37i9dQZF1DWVS1recTqXhf?si=OqCBDTpDQyStxJITG5F-aw")!
@@ -90,6 +102,10 @@ class ViewController3: UIViewController {
         terribleButton.isHidden = false
         miniButton.isHidden = false
         guidedButton.isHidden = false
+        questionText.isHidden = true
+        paraText.isHidden = true
+        infoText.isHidden = true
+        podText.isHidden = false
     }
     @IBAction func buttonThree(_ sender: Any) {
         learnText.text = "Donate"
