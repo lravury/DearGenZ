@@ -44,7 +44,9 @@ class ViewController3: UIViewController {
     paraText.attributedText = attributedString3
    paraText.textAlignment = NSTextAlignment.center
         podText.text = "Podcasts"
-       
+       //text
+    //text
+    //text
 
     }
     @IBAction func learnButton(_ sender: Any) {
