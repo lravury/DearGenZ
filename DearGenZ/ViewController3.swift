@@ -18,10 +18,20 @@ class ViewController3: UIViewController {
     @IBOutlet weak var walkButton: UIButton!
     @IBOutlet weak var riseButton: UIButton!
     @IBOutlet weak var miniButton: UIButton!
+    @IBOutlet weak var mentalPicture: UIImageView!
     @IBOutlet weak var terribleButton: UIButton!
+    @IBOutlet weak var breatheButton: UIButton!
+    @IBOutlet weak var minuteButton: UIButton!
+    @IBOutlet weak var yogaButton: UIButton!
     @IBOutlet weak var podText: UILabel!
+    @IBOutlet weak var bodyButton: UIButton!
     @IBOutlet weak var guidedButton: UIButton!
     override func viewDidLoad() {
+        yogaButton.isHidden = true
+        breatheButton.isHidden = true
+        minuteButton.isHidden = true
+        yogaButton.isHidden = true
+        bodyButton.isHidden = true
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
@@ -40,7 +50,7 @@ class ViewController3: UIViewController {
         infoText.textAlignment = NSTextAlignment.center
         var paragraph = "Mental Health is important because it affects the emotions we feel when we are handling different situations life. For example it controls the amount of stress we have or how anxious we feel on a day to day basis."
         let myAttribute3 = [NSAttributedString.Key.font: UIFont(name:"Optima", size:21.0)!]
-        let attributedString3 = NSAttributedString(string: info, attributes:myAttribute3)
+        let attributedString3 = NSAttributedString(string: paragraph, attributes:myAttribute3)
     paraText.attributedText = attributedString3
    paraText.textAlignment = NSTextAlignment.center
         podText.text = "Podcasts"
@@ -59,7 +69,13 @@ class ViewController3: UIViewController {
         paraText.isHidden = false
         learnText.isHidden = false
         podText.isHidden = true
-        
+        questionText.isHidden = false
+        mentalPicture.isHidden = false
+        yogaButton.isHidden = true
+        breatheButton.isHidden = true
+        minuteButton.isHidden = true
+        yogaButton.isHidden = true
+        bodyButton.isHidden = true
     }
     @IBAction func guidedButton(_ sender: Any) {
         let url = URL (string: "https://open.spotify.com/user/spotify/playlist/37i9dQZF1DWVS1recTqXhf?si=OqCBDTpDQyStxJITG5F-aw")!
@@ -106,10 +122,48 @@ class ViewController3: UIViewController {
         paraText.isHidden = true
         infoText.isHidden = true
         podText.isHidden = false
+        mentalPicture.isHidden = true
+        yogaButton.isHidden = true
+        bodyButton.isHidden = true
+        minuteButton.isHidden = true
+        breatheButton.isHidden = true
     }
     @IBAction func buttonThree(_ sender: Any) {
-        learnText.text = "Donate"
+        learnText.isHidden = true
+        stressButton.isHidden = true
+        riseButton.isHidden = true
+        walkButton.isHidden = true
+        terribleButton.isHidden = true
+        miniButton.isHidden = true
+        guidedButton.isHidden = true
+        questionText.isHidden = true
+        paraText.isHidden = true
+        infoText.isHidden = true
+        podText.isHidden = true
+        mentalPicture.isHidden = true
+        yogaButton.isHidden = false
+        bodyButton.isHidden = false
+        minuteButton.isHidden = false
+        breatheButton.isHidden = false
+
+            }
+    @IBAction func bodyButton(_ sender: Any) {
+        let url = URL (string: "https://youtu.be/sTANio_2E0Q")!
+        UIApplication.shared.open (url)
     }
+    @IBAction func breatheButton(_ sender: Any) {
+        let url = URL (string: "https://youtu.be/Wemm-i6XHr8")!
+        UIApplication.shared.open (url)
+    }
+    @IBAction func yogaButton(_ sender: Any) {
+        let url = URL (string: "https://youtu.be/O-6f5wQXSu8")!
+        UIApplication.shared.open (url)
+    }
+    @IBAction func minuteButton(_ sender: Any) {
+        let url = URL (string: "https://youtu.be/Nw2oBIrQGLo")!
+        UIApplication.shared.open (url)
+    }
+    
     
 
     /*
