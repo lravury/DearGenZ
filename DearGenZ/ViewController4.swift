@@ -16,6 +16,10 @@ class ViewController4: UIViewController {
     @IBOutlet weak var pLink2: UIButton!
     @IBOutlet weak var pLink3: UIButton!
     @IBOutlet weak var pLink4: UIButton!
+    @IBOutlet weak var dLink1: UIButton!
+    @IBOutlet weak var dLink2: UIButton!
+    @IBOutlet weak var dLink3: UIButton!
+    @IBOutlet weak var dLink4: UIButton!
     @IBOutlet weak var policePicture: UIImageView!
     @IBOutlet weak var learnText: UILabel!
     var petitionsPage = ""
@@ -34,7 +38,10 @@ class ViewController4: UIViewController {
         pLink3.isHidden = true
         pLink4.isHidden = true
         policePicture.isHidden = true
-
+        dLink1.isHidden = true
+        dLink2.isHidden = true
+        dLink3.isHidden = true
+        dLink4.isHidden = true
     }
     
    
@@ -74,6 +81,44 @@ class ViewController4: UIViewController {
         }
     }
     
+    @IBAction func dLink1(_ sender: Any) {
+        if let url = URL(string: "https://secure.givelively.org/donate/the-bail-project") {
+                   UIApplication.shared.open(url, options: [:]) {
+                       boolean in
+                       // do something with the boolean
+            }
+        }
+    }
+    
+    @IBAction func dLink2(_ sender: Any) {
+        if let url = URL(string: "https://chicagobond.org") {
+                   UIApplication.shared.open(url, options: [:]) {
+                       boolean in
+                       // do something with the boolean
+            }
+        }
+    }
+    
+    @IBAction func dLink3(_ sender: Any) {
+        if let url = URL(string: "https://www.joincampaignzero.org/#vision") {
+                   UIApplication.shared.open(url, options: [:]) {
+                       boolean in
+                       // do something with the boolean
+            }
+        }
+    }
+    
+    
+    @IBAction func dLink4(_ sender: Any) {
+        if let url = URL(string: "https://secure.actblue.com/donate/ms_blm_homepage_2019") {
+                   UIApplication.shared.open(url, options: [:]) {
+                       boolean in
+                       // do something with the boolean
+            }
+        }
+    }
+    
+    
     @IBAction func petitionsButton(_ sender: Any) {
         learnText.text = ""
         pLink1.isHidden = false
@@ -81,16 +126,24 @@ class ViewController4: UIViewController {
         pLink3.isHidden = false
         pLink4.isHidden = false
         policePicture.isHidden = false
+        dLink1.isHidden = true
+        dLink2.isHidden = true
+        dLink3.isHidden = true
+        dLink4.isHidden = true
 
     }
     
     @IBAction func donateButton(_ sender: Any) {
-        learnText.text = "this is links to donate"
+        learnText.text = ""
         pLink1.isHidden = true
         pLink2.isHidden = true
         pLink3.isHidden = true
         pLink4.isHidden = true
         policePicture.isHidden = false
+        dLink1.isHidden = false
+        dLink2.isHidden = false
+        dLink3.isHidden = false
+        dLink4.isHidden = false
 
     }
     

@@ -153,6 +153,46 @@
                                 <rect key="frame" x="24" y="607" width="364" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jow-qo-ZeQ">
+                                <rect key="frame" x="53" y="313" width="316" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.9983991981" green="0.94150638580000001" blue="0.58540958170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <state key="normal" title="The Bail Project"/>
+                                <connections>
+                                    <action selector="dLink1:" destination="vU7-Fc-VTj" eventType="touchUpInside" id="Lcf-19-gJQ"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zZK-zu-gzw">
+                                <rect key="frame" x="53" y="370" width="316" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.9983991981" green="0.94150638580000001" blue="0.58540958170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <state key="normal" title="Chicago Community Bond Fund"/>
+                                <connections>
+                                    <action selector="dLink2:" destination="vU7-Fc-VTj" eventType="touchUpInside" id="QMq-H1-6vk"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1VL-8o-5aO">
+                                <rect key="frame" x="53" y="427" width="316" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.9983991981" green="0.94150638580000001" blue="0.58540958170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <state key="normal" title="Campaign Zero"/>
+                                <connections>
+                                    <action selector="dLink3:" destination="vU7-Fc-VTj" eventType="touchUpInside" id="wQL-WJ-2Of"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z2I-0V-kWp">
+                                <rect key="frame" x="53" y="482" width="316" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.9983991981" green="0.94150638580000001" blue="0.58540958170000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <state key="normal" title="Black Lives Matter"/>
+                                <connections>
+                                    <action selector="dLink4:" destination="vU7-Fc-VTj" eventType="touchUpInside" id="GUZ-7F-69e"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -160,6 +200,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="WRT-el-JXC"/>
                     <connections>
+                        <outlet property="dLink1" destination="jow-qo-ZeQ" id="sQz-gX-lyB"/>
+                        <outlet property="dLink2" destination="zZK-zu-gzw" id="x4R-lU-FYZ"/>
+                        <outlet property="dLink3" destination="1VL-8o-5aO" id="dHX-WK-mAu"/>
+                        <outlet property="dLink4" destination="z2I-0V-kWp" id="c4l-1V-HsH"/>
                         <outlet property="learnText" destination="pEG-xP-KzL" id="Ux4-1I-OIe"/>
                         <outlet property="pLink1" destination="xzn-ek-b9P" id="ZS7-kA-Njt"/>
                         <outlet property="pLink2" destination="uWU-lS-L1M" id="kk5-JC-exI"/>
