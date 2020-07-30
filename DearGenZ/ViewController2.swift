@@ -38,11 +38,7 @@ class ViewController2: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    let learnText = "Rising levels of greenhouse gases caused by human activity over the past 50 years threaten us all. The burning of fossil fuels such as coal and oil and the clearing of nature for industrial and agricultural purposes have caused this climate crisis, but human beings are to blame. The world's leaders and lead industries have not done their part to conserve our planet. Gen Z is here to put a stop to this crisis."
-    
-    
     @IBAction func ccLearnButton(_ sender: Any) {
-        text1.text = learnText
         text1.isHidden = false
         learnMoreButton.isHidden = false
         pLink1Button.isHidden = true
@@ -92,13 +88,13 @@ class ViewController2: UIViewController {
     
      
     @IBAction func pLink1Button(_ sender: UIButton) {
-    if let url = URL(string: "https://www.ourclimate.us/sign_the_petition") {
+        if let url = URL(string: "https://www.ourclimate.us/sign_the_petition") {
                       UIApplication.shared.open(url, options: [:]){
-                          boolean in
-                          //do something with boolean
-                      }
-                  }
-              }
+                                     boolean in
+                                     //do something with boolean
+                }
+            }
+        }
     
     @IBAction func pLink2Button(_ sender: UIButton) {
     if let url = URL(string: "https://act.biologicaldiversity.org/onlineactions/VRoNZeeNkEyqh9RVJDowoQ2") {
