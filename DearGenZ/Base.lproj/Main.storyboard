@@ -344,7 +344,7 @@
                                 <attributedString key="attributedText"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vTB-oz-g2N">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vTB-oz-g2N">
                                 <rect key="frame" x="37" y="293" width="140" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="IMG-3362"/>
@@ -353,7 +353,7 @@
                                     <action selector="listenPlaylists:" destination="axo-7M-pQR" eventType="touchUpInside" id="QzL-bf-zTM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9I8-4Y-NXF">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9I8-4Y-NXF">
                                 <rect key="frame" x="225" y="293" width="138" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="IMG-3361"/>
@@ -361,7 +361,7 @@
                                     <action selector="stressButton:" destination="axo-7M-pQR" eventType="touchUpInside" id="kog-3d-ehc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3yP-MT-Ylh">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3yP-MT-Ylh">
                                 <rect key="frame" x="37" y="464" width="140" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="IMG-3363"/>
@@ -369,7 +369,7 @@
                                     <action selector="riseButton:" destination="axo-7M-pQR" eventType="touchUpInside" id="NTy-Nm-U2G"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IBv-HW-8gM">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IBv-HW-8gM">
                                 <rect key="frame" x="223" y="462" width="140" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="IMG-3364"/>
@@ -377,7 +377,7 @@
                                     <action selector="walkButton:" destination="axo-7M-pQR" eventType="touchUpInside" id="PWF-cf-tqr"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R76-y6-0DS">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R76-y6-0DS">
                                 <rect key="frame" x="37" y="638" width="140" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="IMG-3366"/>
@@ -385,7 +385,7 @@
                                     <action selector="terribleButton:" destination="axo-7M-pQR" eventType="touchUpInside" id="7gK-0s-08z"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iRD-Up-Osa">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iRD-Up-Osa">
                                 <rect key="frame" x="223" y="638" width="140" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="IMG-3365"/>
@@ -413,11 +413,17 @@
                     </view>
                     <navigationItem key="navigationItem" id="pmQ-JE-CKR"/>
                     <connections>
+                        <outlet property="guidedButton" destination="vTB-oz-g2N" id="Q49-C0-VzL"/>
                         <outlet property="infoText" destination="mAb-1U-u6h" id="gVD-FU-A8P"/>
                         <outlet property="learnText" destination="yGn-pj-7du" id="7gJ-Jx-MTz"/>
+                        <outlet property="miniButton" destination="iRD-Up-Osa" id="GPg-un-b58"/>
                         <outlet property="paraText" destination="gim-0K-BGs" id="dLl-vD-Gqq"/>
                         <outlet property="podText" destination="Gh9-fA-qkF" id="MTp-Nd-NKc"/>
                         <outlet property="questionText" destination="Dcq-KZ-Or5" id="SpJ-rH-uIe"/>
+                        <outlet property="riseButton" destination="3yP-MT-Ylh" id="rgc-LD-Hhy"/>
+                        <outlet property="stressButton" destination="9I8-4Y-NXF" id="p5O-fC-loV"/>
+                        <outlet property="terribleButton" destination="R76-y6-0DS" id="PUg-F5-0xJ"/>
+                        <outlet property="walkButton" destination="IBv-HW-8gM" id="Yyo-pP-Rdl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lc9-tV-dVY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

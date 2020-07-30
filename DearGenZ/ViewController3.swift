@@ -14,7 +14,13 @@ class ViewController3: UIViewController {
     @IBOutlet weak var learnText: UILabel!
     @IBOutlet weak var infoText: UILabel!
     @IBOutlet weak var paraText: UILabel!
+    @IBOutlet weak var stressButton: UIButton!
+    @IBOutlet weak var walkButton: UIButton!
+    @IBOutlet weak var riseButton: UIButton!
+    @IBOutlet weak var miniButton: UIButton!
+    @IBOutlet weak var terribleButton: UIButton!
     @IBOutlet weak var podText: UILabel!
+    @IBOutlet weak var guidedButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -37,9 +43,11 @@ class ViewController3: UIViewController {
         let attributedString3 = NSAttributedString(string: info, attributes:myAttribute3)
     paraText.attributedText = attributedString3
    paraText.textAlignment = NSTextAlignment.center
+       
 
     }
     @IBAction func learnButton(_ sender: Any) {
+        stressButton.isHidden = true
     }
     @IBAction func guidedButton(_ sender: Any) {
         let url = URL (string: "https://open.spotify.com/user/spotify/playlist/37i9dQZF1DWVS1recTqXhf?si=OqCBDTpDQyStxJITG5F-aw")!
@@ -76,7 +84,12 @@ class ViewController3: UIViewController {
     
     @IBAction func listenPlaylists(_ sender: Any) {
         learnText.isHidden = true
-        
+        stressButton.isHidden = false
+        riseButton.isHidden = false
+        walkButton.isHidden = false
+        terribleButton.isHidden = false
+        miniButton.isHidden = false
+        guidedButton.isHidden = false
     }
     @IBAction func buttonThree(_ sender: Any) {
         learnText.text = "Donate"
