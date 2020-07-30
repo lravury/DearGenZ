@@ -70,6 +70,7 @@ class ViewController3: UIViewController {
         let url = URL (string: "https://open.spotify.com/show/4bSTeVDsXWKQCRptxuZnVQ?si=StFMZXK6RqiWAApNywd7gQ")!
         UIApplication.shared.open (url)
     //text
+    //text
     }
     
     @IBAction func listenPlaylists(_ sender: Any) {
