@@ -46,8 +46,6 @@ class ViewController3: UIViewController {
         podText.text = "Podcasts"
        //text
     //text
-    //text
-    //text
 
     }
     @IBAction func learnButton(_ sender: Any) {
