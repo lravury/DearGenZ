@@ -519,18 +519,10 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="qXT-QH-Ova"/>
                                 </connections>
                             </button>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oI6-e1-9Ij">
-                                <rect key="frame" x="43" y="239" width="328" height="406"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oI6-e1-9Ij">
+                                <rect key="frame" x="43" y="252" width="328" height="406"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Label">
-                                        <attributes>
-                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="21" name="Optima-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                                <attributedString key="attributedText"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GPP-lP-Xbw">
@@ -572,51 +564,8 @@
                                     <action selector="pLink1Button:" destination="1cK-kZ-VJH" eventType="touchUpInside" id="vgn-kY-ZSG"/>
                                 </connections>
                             </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fje-1L-KBp">
-                                <rect key="frame" x="60" y="315" width="294" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.52134454249999995" green="0.66290670630000004" blue="0.53966063259999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Nature Conservancy Donation Page">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="17" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <action selector="dLink1Button:" destination="1cK-kZ-VJH" eventType="touchUpInside" id="5uo-0f-vIe"/>
-                                    <action selector="dLink2Button:" destination="1cK-kZ-VJH" eventType="touchUpInside" id="UyT-cj-4o8"/>
-                                    <action selector="pLink1:" destination="1cK-kZ-VJH" eventType="touchUpInside" id="Fbz-bd-lLe"/>
-                                    <action selector="pLink1Button:" destination="1cK-kZ-VJH" eventType="touchUpInside" id="kHP-fI-wBj"/>
-                                </connections>
-                            </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t1w-Ga-05J">
-                                <rect key="frame" x="60" y="380" width="294" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.52134454249999995" green="0.66290670630000004" blue="0.53966063259999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Environmental Defense Fund">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="18" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <action selector="dLink1Button:" destination="1cK-kZ-VJH" eventType="touchUpInside" id="iAv-Xk-rdl"/>
-                                    <action selector="pLink1:" destination="1cK-kZ-VJH" eventType="touchUpInside" id="6JW-k5-fQs"/>
-                                    <action selector="pLink1Button:" destination="1cK-kZ-VJH" eventType="touchUpInside" id="UEh-1y-UjL"/>
-                                </connections>
-                            </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rVJ-KD-055">
-                                <rect key="frame" x="60" y="379" width="294" height="41"/>
+                                <rect key="frame" x="60" y="367" width="294" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.52134454249999995" green="0.66290670630000004" blue="0.53966063259999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal">
@@ -636,69 +585,15 @@
                                     <action selector="pLink2Button:" destination="1cK-kZ-VJH" eventType="touchUpInside" id="1vo-bF-2x8"/>
                                 </connections>
                             </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KQG-IM-azV">
-                                <rect key="frame" x="60" y="446" width="294" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.52134454249999995" green="0.66290670630000004" blue="0.53966063259999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Job One for Humanity Petitions">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="18" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <action selector="pLink1:" destination="1cK-kZ-VJH" eventType="touchUpInside" id="dYd-36-UBS"/>
-                                    <action selector="pLink1Button:" destination="1cK-kZ-VJH" eventType="touchUpInside" id="sIo-Tp-7gr"/>
-                                    <action selector="pLink2Button:" destination="1cK-kZ-VJH" eventType="touchUpInside" id="j8z-wJ-9Cm"/>
-                                    <action selector="pLink3Button:" destination="1cK-kZ-VJH" eventType="touchUpInside" id="TMb-LM-H3w"/>
-                                </connections>
-                            </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S4b-MB-RSu">
-                                <rect key="frame" x="60" y="446" width="294" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.52134454249999995" green="0.66290670630000004" blue="0.53966063259999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Natural Resource Defense Council">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="18" name="Futura-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <action selector="dLink3Button:" destination="1cK-kZ-VJH" eventType="touchUpInside" id="YLR-1C-rQr"/>
-                                    <action selector="pLink1:" destination="1cK-kZ-VJH" eventType="touchUpInside" id="mIz-8l-aFG"/>
-                                    <action selector="pLink1Button:" destination="1cK-kZ-VJH" eventType="touchUpInside" id="IPi-FK-jXQ"/>
-                                    <action selector="pLink2Button:" destination="1cK-kZ-VJH" eventType="touchUpInside" id="9d3-gk-Oji"/>
-                                    <action selector="pLink3Button:" destination="1cK-kZ-VJH" eventType="touchUpInside" id="jsG-b4-d1L"/>
-                                </connections>
-                            </button>
-                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="globalWarming" translatesAutoresizingMaskIntoConstraints="NO" id="Akh-k6-4nH">
-                                <rect key="frame" x="29" y="522" width="356" height="254"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Vtw-2e-ead"/>
                     </view>
                     <navigationItem key="navigationItem" id="Ky6-Of-F2Z"/>
                     <connections>
-                        <outlet property="ccImage1" destination="Akh-k6-4nH" id="MjH-Vv-hpA"/>
-                        <outlet property="dLink1Button" destination="fje-1L-KBp" id="9UJ-Sh-dv2"/>
-                        <outlet property="dLink2Button" destination="t1w-Ga-05J" id="E2y-lf-Er5"/>
-                        <outlet property="dLink3Button" destination="S4b-MB-RSu" id="mY4-Wt-vXC"/>
                         <outlet property="learnMoreButton" destination="GPP-lP-Xbw" id="6I7-xg-MQZ"/>
                         <outlet property="pLink1Button" destination="f7B-gj-dYh" id="gtY-Xp-brj"/>
                         <outlet property="pLink2Button" destination="rVJ-KD-055" id="OuU-wM-DRg"/>
-                        <outlet property="pLink3Button" destination="KQG-IM-azV" id="MIV-fe-Z9Q"/>
                         <outlet property="text1" destination="oI6-e1-9Ij" id="fwf-cr-bzE"/>
                     </connections>
                 </viewController>
@@ -893,7 +788,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="qXT-QH-Ova"/>
+        <segue reference="dve-cb-74I"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="IMG-3361" width="437" height="438"/>
@@ -907,12 +802,8 @@
         <image name="checkmark.seal.fill" catalog="system" width="128" height="122"/>
         <image name="defundPolice" width="2400" height="1600"/>
         <image name="dollarsign.circle.fill" catalog="system" width="128" height="121"/>
-<<<<<<< HEAD
-        <image name="globalWarming" width="2880" height="1440"/>
-=======
         <image name="emma" width="1000" height="750"/>
         <image name="greta" width="220" height="302"/>
->>>>>>> master
         <image name="music.note.list" catalog="system" width="128" height="113"/>
         <image name="pencil" catalog="system" width="128" height="113"/>
         <image name="ying-ge-LJ3nrWc2LUM-unsplash (1)" width="6000" height="4000"/>
