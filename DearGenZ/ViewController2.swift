@@ -10,27 +10,45 @@ import UIKit
 
 class ViewController2: UIViewController {
 
-    @IBOutlet weak var ccTextOne: UILabel!
+    
+    @IBOutlet weak var text1: UILabel!
+    
+    @IBOutlet weak var learnMoreButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        learnMoreButton.isHidden = true
 
         // Do any additional setup after loading the view.
     }
     
+    let learnText = "Rising levels of greenhouse gases caused by human activity over the past 50 years threaten us all. The burning of fossil fuels such as coal and oil and the clearing of nature for industrial and agricultural purposes have caused this climate crisis, but human beings are to blame. The world's leaders and lead industries have not done their part to conserve our planet. Gen Z is here to put a stop to this crisis."
+    
+    
     @IBAction func ccLearnButton(_ sender: Any) {
-        ccTextOne.text = "Learn Button Pressed"
+        text1.text = learnText
+        learnMoreButton.isHidden = false
     }
     
     @IBAction func ccPetitionsButton(_ sender: Any) {
-        ccTextOne.text = "Petitions Button Pressed"
+        text1.text = "Petitions Button Pressed"
     }
     
     @IBAction func ccDonateButton(_ sender: Any) {
-        ccTextOne.text = "Donate Button Pressed"
+        text1.text = "Donate Button Pressed"
     }
     
-//test 2
+    
+    @IBAction func learnMoreButton(_ sender: UIButton) {
+        if let url = URL(string: "https://climate.nasa.gov/") {
+            UIApplication.shared.open(url, options: [:]){
+                boolean in
+                //do something with boolean
+            }
+        }
+    }
+    
+//testing 2 
 
     /*
     // MARK: - Navigation
