@@ -48,7 +48,7 @@ class ViewController2: UIViewController {
         }
     }
     
-//test 2
+//testing 
 
     /*
     // MARK: - Navigation
