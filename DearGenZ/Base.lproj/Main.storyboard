@@ -846,11 +846,46 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="dve-cb-74I"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYO-Ak-Z6x">
+                                <rect key="frame" x="35" y="96" width="156" height="211"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="greta"/>
+                                <connections>
+                                    <action selector="gretaButton:" destination="EbW-h1-uaf" eventType="touchUpInside" id="x2i-vW-8aw"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QHF-Uy-e9h">
+                                <rect key="frame" x="48" y="350" width="317" height="310"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1jU-Wd-LOd">
+                                <rect key="frame" x="217" y="129" width="177" height="153"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" backgroundImage="emma"/>
+                                <connections>
+                                    <action selector="emmaButton:" destination="EbW-h1-uaf" eventType="touchUpInside" id="eRu-xr-22O"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gen Z Activists" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jen-QZ-x4k">
+                                <rect key="frame" x="48" y="56" width="329" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.33596640830000002" green="0.46689736840000001" blue="0.46723097559999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="oMX-Wv-3dj"/>
                     </view>
                     <navigationItem key="navigationItem" id="TgD-ZE-UTa"/>
+                    <connections>
+                        <outlet property="bioText" destination="QHF-Uy-e9h" id="8Lq-DG-cnw"/>
+                        <outlet property="title" destination="jen-QZ-x4k" id="RCW-ii-H9q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iMj-tf-nmS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -872,7 +907,12 @@
         <image name="checkmark.seal.fill" catalog="system" width="128" height="122"/>
         <image name="defundPolice" width="2400" height="1600"/>
         <image name="dollarsign.circle.fill" catalog="system" width="128" height="121"/>
+<<<<<<< HEAD
         <image name="globalWarming" width="2880" height="1440"/>
+=======
+        <image name="emma" width="1000" height="750"/>
+        <image name="greta" width="220" height="302"/>
+>>>>>>> master
         <image name="music.note.list" catalog="system" width="128" height="113"/>
         <image name="pencil" catalog="system" width="128" height="113"/>
         <image name="ying-ge-LJ3nrWc2LUM-unsplash (1)" width="6000" height="4000"/>
