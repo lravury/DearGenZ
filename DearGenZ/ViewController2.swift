@@ -14,10 +14,15 @@ class ViewController2: UIViewController {
     @IBOutlet weak var text1: UILabel!
     
     @IBOutlet weak var learnMoreButton: UIButton!
+    @IBOutlet weak var pLink1Button: UIButton!
+    @IBOutlet weak var pLink2Button: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         learnMoreButton.isHidden = true
+        pLink1Button.isHidden = true
+        pLink2Button.isHidden = true
 
         // Do any additional setup after loading the view.
     }
@@ -28,10 +33,15 @@ class ViewController2: UIViewController {
     @IBAction func ccLearnButton(_ sender: Any) {
         text1.text = learnText
         learnMoreButton.isHidden = false
+        pLink1Button.isHidden = true
+        pLink2Button.isHidden = true
     }
     
     @IBAction func ccPetitionsButton(_ sender: Any) {
-        text1.text = "Petitions Button Pressed"
+        pLink1Button.isHidden = false
+        pLink2Button.isHidden = false
+        text1.isHidden = true
+        learnMoreButton.isHidden = true
     }
     
     @IBAction func ccDonateButton(_ sender: Any) {
@@ -48,7 +58,28 @@ class ViewController2: UIViewController {
         }
     }
     
-//testing 2 
+    
+     
+    @IBAction func pLink1Button(_ sender: UIButton) {
+    if let url = URL(string: "https://www.ourclimate.us/sign_the_petition") {
+                      UIApplication.shared.open(url, options: [:]){
+                          boolean in
+                          //do something with boolean
+                      }
+                  }
+              }
+    
+    @IBAction func pLink2Button(_ sender: Any) {
+    if let url = URL(string: "https://act.biologicaldiversity.org/onlineactions/VRoNZeeNkEyqh9RVJDowoQ2") {
+                      UIApplication.shared.open(url, options: [:]){
+                          boolean in
+                          //do something with boolean
+                      }
+                  }
+              }
+    
+    
+//testing 2
 
     /*
     // MARK: - Navigation

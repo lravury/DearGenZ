@@ -520,12 +520,12 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oI6-e1-9Ij">
-                                <rect key="frame" x="43" y="253" width="328" height="406"/>
+                                <rect key="frame" x="43" y="252" width="328" height="406"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GPP-lP-Xbw">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GPP-lP-Xbw">
                                 <rect key="frame" x="60" y="690" width="294" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.52134454249999995" green="0.66290670630000004" blue="0.53966063259999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -544,6 +544,47 @@
                                     <action selector="learnMoreButton:" destination="1cK-kZ-VJH" eventType="touchUpInside" id="bKV-wU-ec8"/>
                                 </connections>
                             </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f7B-gj-dYh">
+                                <rect key="frame" x="60" y="315" width="294" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.52134454249999995" green="0.66290670630000004" blue="0.53966063259999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="100% Clean Energy Economy">
+                                            <attributes>
+                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="18" name="Futura-Medium"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="pLink1:" destination="1cK-kZ-VJH" eventType="touchUpInside" id="rJT-zj-aK1"/>
+                                    <action selector="pLink1Button:" destination="1cK-kZ-VJH" eventType="touchUpInside" id="vgn-kY-ZSG"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rVJ-KD-055">
+                                <rect key="frame" x="60" y="367" width="294" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.52134454249999995" green="0.66290670630000004" blue="0.53966063259999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Limiting Carbon Emissions">
+                                            <attributes>
+                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="18" name="Futura-Medium"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="pLink1:" destination="1cK-kZ-VJH" eventType="touchUpInside" id="UtP-UC-RLq"/>
+                                    <action selector="pLink1Button:" destination="1cK-kZ-VJH" eventType="touchUpInside" id="84m-Le-BEK"/>
+                                    <action selector="pLink2Button:" destination="1cK-kZ-VJH" eventType="touchUpInside" id="1vo-bF-2x8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Vtw-2e-ead"/>
@@ -551,6 +592,8 @@
                     <navigationItem key="navigationItem" id="Ky6-Of-F2Z"/>
                     <connections>
                         <outlet property="learnMoreButton" destination="GPP-lP-Xbw" id="6I7-xg-MQZ"/>
+                        <outlet property="pLink1Button" destination="f7B-gj-dYh" id="gtY-Xp-brj"/>
+                        <outlet property="pLink2Button" destination="rVJ-KD-055" id="OuU-wM-DRg"/>
                         <outlet property="text1" destination="oI6-e1-9Ij" id="fwf-cr-bzE"/>
                     </connections>
                 </viewController>
