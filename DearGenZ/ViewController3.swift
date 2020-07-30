@@ -27,6 +27,11 @@ class ViewController3: UIViewController {
     @IBOutlet weak var bodyButton: UIButton!
     @IBOutlet weak var guidedButton: UIButton!
     override func viewDidLoad() {
+        yogaButton.isHidden = true
+        breatheButton.isHidden = true
+        minuteButton.isHidden = true
+        yogaButton.isHidden = true
+        bodyButton.isHidden = true
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
@@ -45,7 +50,7 @@ class ViewController3: UIViewController {
         infoText.textAlignment = NSTextAlignment.center
         var paragraph = "Mental Health is important because it affects the emotions we feel when we are handling different situations life. For example it controls the amount of stress we have or how anxious we feel on a day to day basis."
         let myAttribute3 = [NSAttributedString.Key.font: UIFont(name:"Optima", size:21.0)!]
-        let attributedString3 = NSAttributedString(string: info, attributes:myAttribute3)
+        let attributedString3 = NSAttributedString(string: paragraph, attributes:myAttribute3)
     paraText.attributedText = attributedString3
    paraText.textAlignment = NSTextAlignment.center
         podText.text = "Podcasts"
