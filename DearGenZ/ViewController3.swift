@@ -69,7 +69,7 @@ class ViewController3: UIViewController {
     @IBAction func miniButton(_ sender: Any) {
         let url = URL (string: "https://open.spotify.com/show/4bSTeVDsXWKQCRptxuZnVQ?si=StFMZXK6RqiWAApNywd7gQ")!
         UIApplication.shared.open (url)
-        
+    //text
     }
     
     @IBAction func listenPlaylists(_ sender: Any) {
