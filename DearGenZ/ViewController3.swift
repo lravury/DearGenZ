@@ -25,6 +25,7 @@ class ViewController3: UIViewController {
     @IBOutlet weak var yogaButton: UIButton!
     @IBOutlet weak var podText: UILabel!
     @IBOutlet weak var bodyButton: UIButton!
+    @IBOutlet weak var improveText: UILabel!
     @IBOutlet weak var guidedButton: UIButton!
     override func viewDidLoad() {
         yogaButton.isHidden = true
@@ -32,6 +33,13 @@ class ViewController3: UIViewController {
         minuteButton.isHidden = true
         yogaButton.isHidden = true
         bodyButton.isHidden = true
+        learnText.isHidden = true
+        mentalPicture.isHidden = true
+        questionText.isHidden = true
+        infoText.isHidden = true
+        paraText.isHidden = true
+        podText.isHidden = true
+        improveText.isHidden = true
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
@@ -76,6 +84,7 @@ class ViewController3: UIViewController {
         minuteButton.isHidden = true
         yogaButton.isHidden = true
         bodyButton.isHidden = true
+        improveText.isHidden = true
     }
     @IBAction func guidedButton(_ sender: Any) {
         let url = URL (string: "https://open.spotify.com/user/spotify/playlist/37i9dQZF1DWVS1recTqXhf?si=OqCBDTpDQyStxJITG5F-aw")!
@@ -126,6 +135,7 @@ class ViewController3: UIViewController {
         bodyButton.isHidden = true
         minuteButton.isHidden = true
         breatheButton.isHidden = true
+        improveText.isHidden = true
     }
     @IBAction func buttonThree(_ sender: Any) {
         learnText.isHidden = true
@@ -144,6 +154,7 @@ class ViewController3: UIViewController {
         bodyButton.isHidden = false
         minuteButton.isHidden = false
         breatheButton.isHidden = false
+        improveText.isHidden = false
 
             }
     @IBAction func bodyButton(_ sender: Any) {

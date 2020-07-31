@@ -276,8 +276,8 @@
                                     <action selector="buttonThree:" destination="axo-7M-pQR" eventType="touchUpInside" id="NEd-22-80p"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Excercises" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9X-rX-Jgf">
-                                <rect key="frame" x="297" y="238" width="79" height="23"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Exercises" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9X-rX-Jgf">
+                                <rect key="frame" x="297" y="238" width="70" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -490,6 +490,20 @@
                                 <attributedString key="attributedText"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xdj-Vl-kKA">
+                                <rect key="frame" x="27" y="264" width="357" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Exercises You Should Do To Improve Your Mental Health">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="23" name="Optima-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="gDp-hw-c1A"/>
@@ -499,6 +513,7 @@
                         <outlet property="bodyButton" destination="faU-Y0-orb" id="uB5-o5-grt"/>
                         <outlet property="breatheButton" destination="fZ1-pO-Je4" id="hpi-8s-aTB"/>
                         <outlet property="guidedButton" destination="vTB-oz-g2N" id="Q49-C0-VzL"/>
+                        <outlet property="improveText" destination="Xdj-Vl-kKA" id="SaZ-2I-jHZ"/>
                         <outlet property="infoText" destination="mAb-1U-u6h" id="gVD-FU-A8P"/>
                         <outlet property="learnText" destination="yGn-pj-7du" id="7gJ-Jx-MTz"/>
                         <outlet property="mentalPicture" destination="STh-mF-riH" id="CSJ-pq-iRd"/>
@@ -1012,7 +1027,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="dve-cb-74I"/>
+        <segue reference="FYS-Yx-zha"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="IMG-3361" width="437" height="438"/>
