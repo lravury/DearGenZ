@@ -396,13 +396,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mAb-1U-u6h">
-                                <rect key="frame" x="23" y="410" width="361" height="44"/>
+                                <rect key="frame" x="26" y="398" width="361" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mental-health-integrated-treatment" translatesAutoresizingMaskIntoConstraints="NO" id="STh-mF-riH">
-                                <rect key="frame" x="57" y="574" width="280" height="204"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pexels-brett-sayles-2821220" translatesAutoresizingMaskIntoConstraints="NO" id="STh-mF-riH">
+                                <rect key="frame" x="67" y="570" width="280" height="204"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="faU-Y0-orb">
@@ -485,7 +485,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gim-0K-BGs">
-                                <rect key="frame" x="23" y="440" width="369" height="146"/>
+                                <rect key="frame" x="23" y="428" width="369" height="146"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText"/>
                                 <nil key="highlightedColor"/>
@@ -498,6 +498,23 @@
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="23" name="Optima-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pexels-photo-2647471" translatesAutoresizingMaskIntoConstraints="NO" id="Ac0-6T-6BM">
+                                <rect key="frame" x="62" y="626" width="286" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eCf-fb-4vz">
+                                <rect key="frame" x="29" y="264" width="357" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Playlists That Will Help You Relax ">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="Optima-Regular"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -522,11 +539,13 @@
                         <outlet property="paraText" destination="gim-0K-BGs" id="dLl-vD-Gqq"/>
                         <outlet property="podText" destination="Gh9-fA-qkF" id="MTp-Nd-NKc"/>
                         <outlet property="questionText" destination="Dcq-KZ-Or5" id="SpJ-rH-uIe"/>
+                        <outlet property="relaxText" destination="eCf-fb-4vz" id="fZQ-cu-0Ew"/>
                         <outlet property="riseButton" destination="3yP-MT-Ylh" id="rgc-LD-Hhy"/>
                         <outlet property="stressButton" destination="9I8-4Y-NXF" id="p5O-fC-loV"/>
                         <outlet property="terribleButton" destination="R76-y6-0DS" id="PUg-F5-0xJ"/>
                         <outlet property="walkButton" destination="IBv-HW-8gM" id="Yyo-pP-Rdl"/>
                         <outlet property="yogaButton" destination="tL0-ux-fhk" id="Psu-cM-vEr"/>
+                        <outlet property="yogaPicture" destination="Ac0-6T-6BM" id="YWI-05-cvM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lc9-tV-dVY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1044,9 +1063,10 @@
         <image name="emma" width="1000" height="750"/>
         <image name="globalWarming" width="2880" height="1440"/>
         <image name="greta" width="220" height="302"/>
-        <image name="mental-health-integrated-treatment" width="700" height="559"/>
         <image name="music.note.list" catalog="system" width="128" height="113"/>
         <image name="pencil" catalog="system" width="128" height="113"/>
+        <image name="pexels-brett-sayles-2821220" width="6048" height="4024"/>
+        <image name="pexels-photo-2647471" width="1000" height="667"/>
         <image name="pexels-photo-4552829" width="1000" height="667"/>
         <image name="pexels-photo-4614149" width="2250" height="1500"/>
         <image name="pexels-photo-4614160" width="2250" height="1500"/>
