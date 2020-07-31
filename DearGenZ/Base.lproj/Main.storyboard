@@ -407,40 +407,87 @@
                                 <attributedString key="attributedText"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="faU-Y0-orb">
-                                <rect key="frame" x="180" y="348" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="faU-Y0-orb">
+                                <rect key="frame" x="27" y="348" width="361" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <color key="backgroundColor" red="0.67647475000000001" green="0.8629063964" blue="0.89295786619999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Full Body Exercise">
+                                            <attributes>
+                                                <font key="NSFont" size="17" name="Optima-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
                                 <connections>
                                     <action selector="bodyButton:" destination="axo-7M-pQR" eventType="touchUpInside" id="TVp-pg-Iml"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mbM-10-Ggp">
-                                <rect key="frame" x="180" y="427" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fZ1-pO-Je4">
+                                <rect key="frame" x="27" y="419" width="361" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <color key="backgroundColor" red="0.67647475000000001" green="0.8629063964" blue="0.89295786619999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Breathing Exercises">
+                                            <attributes>
+                                                <font key="NSFont" size="17" name="Optima-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
                                 <connections>
-                                    <action selector="yogaButton:" destination="axo-7M-pQR" eventType="touchUpInside" id="gIy-lJ-3W2"/>
+                                    <action selector="bodyButton:" destination="axo-7M-pQR" eventType="touchUpInside" id="WGt-Sj-aD1"/>
+                                    <action selector="breatheButton:" destination="axo-7M-pQR" eventType="touchUpInside" id="3w0-hh-U7h"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vzI-5v-tIf">
-                                <rect key="frame" x="180" y="512" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9pJ-nb-vUH">
+                                <rect key="frame" x="27" y="491" width="361" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <color key="backgroundColor" red="0.67647475000000001" green="0.8629063964" blue="0.89295786619999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="10 Minute Meditation">
+                                            <attributes>
+                                                <font key="NSFont" size="17" name="Optima-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
                                 <connections>
-                                    <action selector="minuteButton:" destination="axo-7M-pQR" eventType="touchUpInside" id="4ha-76-ZrD"/>
+                                    <action selector="bodyButton:" destination="axo-7M-pQR" eventType="touchUpInside" id="M0V-93-shr"/>
+                                    <action selector="minuteButton:" destination="axo-7M-pQR" eventType="touchUpInside" id="Y9G-aN-n3q"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KaO-oA-6dP">
-                                <rect key="frame" x="184" y="574" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tL0-ux-fhk">
+                                <rect key="frame" x="27" y="562" width="361" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <color key="backgroundColor" red="0.67647475000000001" green="0.8629063964" blue="0.89295786619999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Yoga For Stress Relief">
+                                            <attributes>
+                                                <font key="NSFont" size="17" name="Optima-Regular"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
                                 <connections>
-                                    <action selector="breatheButton:" destination="axo-7M-pQR" eventType="touchUpInside" id="4ib-fZ-Nb3"/>
+                                    <action selector="bodyButton:" destination="axo-7M-pQR" eventType="touchUpInside" id="DAE-La-ipN"/>
+                                    <action selector="yogaButton:" destination="axo-7M-pQR" eventType="touchUpInside" id="qcw-Qm-VUf"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mental-health-integrated-treatment" translatesAutoresizingMaskIntoConstraints="NO" id="STh-mF-riH">
-                                <rect key="frame" x="83" y="638" width="240" height="128"/>
+                                <rect key="frame" x="57" y="574" width="280" height="204"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -450,13 +497,13 @@
                     <navigationItem key="navigationItem" id="pmQ-JE-CKR"/>
                     <connections>
                         <outlet property="bodyButton" destination="faU-Y0-orb" id="uB5-o5-grt"/>
-                        <outlet property="breatheButton" destination="KaO-oA-6dP" id="K8g-SR-RWD"/>
+                        <outlet property="breatheButton" destination="fZ1-pO-Je4" id="hpi-8s-aTB"/>
                         <outlet property="guidedButton" destination="vTB-oz-g2N" id="Q49-C0-VzL"/>
                         <outlet property="infoText" destination="mAb-1U-u6h" id="gVD-FU-A8P"/>
                         <outlet property="learnText" destination="yGn-pj-7du" id="7gJ-Jx-MTz"/>
                         <outlet property="mentalPicture" destination="STh-mF-riH" id="CSJ-pq-iRd"/>
                         <outlet property="miniButton" destination="iRD-Up-Osa" id="GPg-un-b58"/>
-                        <outlet property="minuteButton" destination="vzI-5v-tIf" id="uuU-jc-L5G"/>
+                        <outlet property="minuteButton" destination="9pJ-nb-vUH" id="fUS-kR-3A7"/>
                         <outlet property="paraText" destination="gim-0K-BGs" id="dLl-vD-Gqq"/>
                         <outlet property="podText" destination="Gh9-fA-qkF" id="MTp-Nd-NKc"/>
                         <outlet property="questionText" destination="Dcq-KZ-Or5" id="SpJ-rH-uIe"/>
@@ -464,7 +511,7 @@
                         <outlet property="stressButton" destination="9I8-4Y-NXF" id="p5O-fC-loV"/>
                         <outlet property="terribleButton" destination="R76-y6-0DS" id="PUg-F5-0xJ"/>
                         <outlet property="walkButton" destination="IBv-HW-8gM" id="Yyo-pP-Rdl"/>
-                        <outlet property="yogaButton" destination="mbM-10-Ggp" id="V1J-Gd-66R"/>
+                        <outlet property="yogaButton" destination="tL0-ux-fhk" id="Psu-cM-vEr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lc9-tV-dVY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
