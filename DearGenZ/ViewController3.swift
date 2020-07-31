@@ -49,7 +49,7 @@ class ViewController3: UIViewController {
         infoText.attributedText = attributedString2
         infoText.textAlignment = NSTextAlignment.center
         var paragraph = "Mental Health is important because it affects the emotions we feel when we are handling different situations life. For example it controls the amount of stress we have or how anxious we feel on a day to day basis."
-        let myAttribute3 = [NSAttributedString.Key.font: UIFont(name:"Optima", size:21.0)!]
+        let myAttribute3 = [NSAttributedString.Key.font: UIFont(name:"Optima", size:19.0)!]
         let attributedString3 = NSAttributedString(string: paragraph, attributes:myAttribute3)
     paraText.attributedText = attributedString3
    paraText.textAlignment = NSTextAlignment.center
@@ -105,7 +105,6 @@ class ViewController3: UIViewController {
     @IBAction func miniButton(_ sender: Any) {
         let url = URL (string: "https://open.spotify.com/show/4bSTeVDsXWKQCRptxuZnVQ?si=StFMZXK6RqiWAApNywd7gQ")!
         UIApplication.shared.open (url)
-    //text
     //text
     //text
     }
