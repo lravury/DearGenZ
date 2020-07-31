@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -149,10 +149,6 @@
                                     <action selector="pLink4:" destination="vU7-Fc-VTj" eventType="touchUpInside" id="gDk-jl-DGJ"/>
                                 </connections>
                             </button>
-                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="defundPolice" translatesAutoresizingMaskIntoConstraints="NO" id="8h2-aM-UtG">
-                                <rect key="frame" x="24" y="607" width="364" height="132"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jow-qo-ZeQ">
                                 <rect key="frame" x="53" y="313" width="316" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -193,6 +189,10 @@
                                     <action selector="dLink4:" destination="vU7-Fc-VTj" eventType="touchUpInside" id="GUZ-7F-69e"/>
                                 </connections>
                             </button>
+                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="defundPolice" translatesAutoresizingMaskIntoConstraints="NO" id="8h2-aM-UtG">
+                                <rect key="frame" x="14" y="573" width="401" height="175"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -895,7 +895,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <segue destination="EbW-h1-uaf" kind="show" id="Oes-Jk-6gz"/>
+                                    <segue destination="EbW-h1-uaf" kind="show" id="AWm-ye-pGy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zOF-WZ-rKw">
@@ -1030,6 +1030,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l27-JN-hg3">
+                                <rect key="frame" x="139" y="685" width="149" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <state key="normal" title="Follow on Instagram">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="instaButton:" destination="EbW-h1-uaf" eventType="touchUpInside" id="PO8-3H-fUd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="oMX-Wv-3dj"/>
@@ -1037,6 +1048,8 @@
                     <navigationItem key="navigationItem" id="TgD-ZE-UTa"/>
                     <connections>
                         <outlet property="bioText" destination="QHF-Uy-e9h" id="8Lq-DG-cnw"/>
+                        <outlet property="instaButton" destination="l27-JN-hg3" id="DTQ-X3-uAw"/>
+                        <outlet property="pageTitle" destination="jen-QZ-x4k" id="So6-ui-llU"/>
                         <outlet property="title" destination="jen-QZ-x4k" id="RCW-ii-H9q"/>
                     </connections>
                 </viewController>
@@ -1046,7 +1059,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="FYS-Yx-zha"/>
+        <segue reference="dve-cb-74I"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="IMG-3361" width="437" height="438"/>
