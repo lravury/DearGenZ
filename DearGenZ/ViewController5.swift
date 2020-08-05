@@ -41,7 +41,7 @@ class ViewController5: UIViewController {
     @IBAction func marleyButton(_ sender: Any) {
         bioText.text = "Marley Dias \n \n Marley is a 15 year old activist and feminist. When in middle school, Marley launched a campaign called #1000BlackGirlBooks with the goal to collect and donate 1,000 books that feature black girls as the lead protagonist. To this day, Marley has collected over 12,000 books. Due to her campaign’s success, Marley has spoken at many conferences such as The Forbes Women’s Summit, the Social Innovation Summit, and the White House’s United State of Women, along with several others. Currently, she is the youngest member of the Forbes 30 under 30 list. Since then, Marley has continued to inspire others through the release of her book Marley Dias Gets It Done: And So Can You!"
         
-
+//text
     }
     
     @IBAction func instaButton(_ sender: Any) {
