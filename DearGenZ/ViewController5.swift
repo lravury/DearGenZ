@@ -12,18 +12,42 @@ import UIKit
 class ViewController5: UIViewController {
 
     @IBOutlet weak var bioText: UILabel!
-
+    @IBOutlet weak var instagramButton: UIButton!
+    @IBOutlet weak var facebookButton: UIButton!
+    @IBOutlet weak var youtubeButton: UIButton!
+    @IBOutlet weak var twitterButton: UIButton!
+    @IBOutlet weak var instaButton: UIButton!
+    @IBOutlet weak var twitterTwo: UIButton!
+    @IBOutlet weak var facebookTwo: UIButton!
+    @IBOutlet weak var youtubeTwo: UIButton!
     @IBOutlet weak var activistsPage: UILabel!
 
     override func viewDidLoad() {
+       youtubeButton.isHidden = true
+        facebookButton.isHidden = true
+        twitterButton.isHidden = true
+        instagramButton.isHidden =  true
+        instaButton.isHidden = true
+        twitterTwo.isHidden = true
+        facebookTwo.isHidden = true
+        youtubeTwo.isHidden = true
+        
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
     
 
     @IBAction func gretaButton(_ sender: Any) {
         bioText.text = "Greta Thunberg \n \n Greta is a 17 year old girl from Sweden who is fighting to prevent climate change. Beginning in 2018, Greta started protesting against her country's high carbon emissions. She started a movement she called 'School Strike for Climate', and urged students around the world to skip school to protest against climate change. Since then, Greta has led many protests and even spoken at the United Nations."
+        youtubeButton.isHidden = false
+        facebookButton.isHidden = false
+        twitterButton.isHidden = false
+        instagramButton.isHidden =  false
+        instaButton.isHidden = true
+        twitterTwo.isHidden = true
+        facebookTwo.isHidden = true
+        youtubeTwo.isHidden = true
       
     }
     
@@ -31,6 +55,15 @@ class ViewController5: UIViewController {
     @IBAction func emmaButton(_ sender: Any) {
 
         bioText.text = "Emma Gonzalez \n \n Emma is a 20 year old advocate for gun control. Her presence in activism began after the tragic February 2018 Stoneman Douglas High School shooting in Parkland, Florida. After this tragedy occurred Emma Gonzalez and other Parkland shooting survivors organized March for Our Lives, a country-wide movement for gun control. She began the rally with a powerful speech that lasted 6 minutes and 20 seconds, the length of time it took the shooter to shoot up Stoneman Douglas High School. Since then, she has founded Never Again MSD, a student-led committee advocating for gun control."
+        instaButton.isHidden = false
+        twitterTwo.isHidden = false
+        facebookTwo.isHidden = false
+        youtubeTwo.isHidden = false
+        youtubeButton.isHidden = true
+        facebookButton.isHidden = true
+        twitterButton.isHidden = true
+        instagramButton.isHidden =  true
+
     }
     @IBAction func yaraButton(_ sender: Any) {
         bioText.text = "Yara Shahidi \n \n Yara is a 20 year old actress who is known for her role in Black-ish and its spin-off series Grown-ish. She is also known for her activism for several topics such as feminism and awareness for STEM. Yara founded her own initiative to help high school students take action and discuss social issues together called Yara’s Club. She also worked alongside former first lady Michelle Obama on Michelle’s Let Girls Learn Initiative. Since then, Yara has become a role model for her Generation Z for her presence in the fashion industry, the acting industry, and the world of social activism."
@@ -41,7 +74,6 @@ class ViewController5: UIViewController {
     @IBAction func marleyButton(_ sender: Any) {
         bioText.text = "Marley Dias \n \n Marley is a 15 year old activist and feminist. When in middle school, Marley launched a campaign called #1000BlackGirlBooks with the goal to collect and donate 1,000 books that feature black girls as the lead protagonist. To this day, Marley has collected over 12,000 books. Due to her campaign’s success, Marley has spoken at many conferences such as The Forbes Women’s Summit, the Social Innovation Summit, and the White House’s United State of Women, along with several others. Currently, she is the youngest member of the Forbes 30 under 30 list. Since then, Marley has continued to inspire others through the release of her book Marley Dias Gets It Done: And So Can You!"
         
-//text
     }
     
     @IBAction func instaButton(_ sender: Any) {
@@ -52,6 +84,31 @@ class ViewController5: UIViewController {
             }
         }
     }
+    @IBAction func twitterButton(_ sender: Any) {
+        if let url = URL(string: "https://twitter.com/GretaThunberg?s=20") {
+        UIApplication.shared.open(url, options: [:]) {
+            boolean in
+            // do something with the boolean
+                }
+            }
+        }
+    @IBAction func youtubeButton(_ sender: Any) {
+        if let url = URL(string: "https://www.youtube.com/channel/UCAgIfWgzZ6QtvB_Oj1SBNnA") {
+        UIApplication.shared.open(url, options: [:]) {
+            boolean in
+            // do something with the boolean
+            }
+        }
+    }
+    @IBAction func facebookButton(_ sender: Any) {
+        if let url = URL(string: "https://www.facebook.com/gretathunbergsweden/") {
+        UIApplication.shared.open(url, options: [:]) {
+            boolean in
+            // do something with the boolean
+            }
+        }
+    }
+}
     
     /*
     // MARK: - Navigation
@@ -62,5 +119,4 @@ class ViewController5: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-//  test  2
-}
+
