@@ -1053,16 +1053,25 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bos-nA-PBm">
-                                <rect key="frame" x="230" y="751" width="56" height="59"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fI-va-Bh0">
+                                <rect key="frame" x="161" y="722" width="93" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="download7"/>
+                                <state key="normal" title="Button" image="download-5"/>
                                 <connections>
-                                    <action selector="facebookButton:" destination="EbW-h1-uaf" eventType="touchUpInside" id="Xi4-1v-XOC"/>
+                                    <action selector="twitterButton:" destination="EbW-h1-uaf" eventType="touchUpInside" id="Mpo-jv-QNj"/>
+                                    <action selector="twitterTwo:" destination="EbW-h1-uaf" eventType="touchUpInside" id="yDZ-ol-q0K"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RyF-3R-ChJ">
+                                <rect key="frame" x="318" y="751" width="55" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="download6jpg"/>
+                                <connections>
+                                    <action selector="youtubeButton:" destination="EbW-h1-uaf" eventType="touchUpInside" id="pdN-pe-Dss"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MK2-Em-rHu">
-                                <rect key="frame" x="47" y="745" width="63" height="63"/>
+                                <rect key="frame" x="97" y="734" width="71" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="download-4"/>
                                 <connections>
@@ -1070,7 +1079,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tL9-uw-9NS">
-                                <rect key="frame" x="35" y="715" width="79" height="78"/>
+                                <rect key="frame" x="41" y="718" width="79" height="78"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="download-4"/>
                                 <connections>
@@ -1086,7 +1095,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OAR-VD-hxB">
-                                <rect key="frame" x="223" y="720" width="70" height="72"/>
+                                <rect key="frame" x="226" y="721" width="70" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="download7"/>
                                 <connections>
@@ -1102,19 +1111,20 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1aW-6e-HLF">
-                                <rect key="frame" x="128" y="745" width="71" height="71"/>
+                                <rect key="frame" x="161" y="728" width="93" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="download-5"/>
                                 <connections>
                                     <action selector="twitterButton:" destination="EbW-h1-uaf" eventType="touchUpInside" id="Fne-tJ-8FS"/>
+                                    <action selector="twitterTwo:" destination="EbW-h1-uaf" eventType="touchUpInside" id="kXZ-tR-2xp"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RyF-3R-ChJ">
-                                <rect key="frame" x="318" y="751" width="55" height="59"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bos-nA-PBm">
+                                <rect key="frame" x="251" y="740" width="59" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="download6jpg"/>
+                                <state key="normal" title="Button" image="download7"/>
                                 <connections>
-                                    <action selector="youtubeButton:" destination="EbW-h1-uaf" eventType="touchUpInside" id="pdN-pe-Dss"/>
+                                    <action selector="facebookButton:" destination="EbW-h1-uaf" eventType="touchUpInside" id="Xi4-1v-XOC"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1129,10 +1139,11 @@
                         <outlet property="facebookTwo" destination="bos-nA-PBm" id="51J-wh-696"/>
                         <outlet property="instaButton" destination="MK2-Em-rHu" id="2C3-Os-2Yi"/>
                         <outlet property="instagramButton" destination="tL9-uw-9NS" id="SJP-Ru-sON"/>
+                        <outlet property="tubeButton" destination="uwr-fn-GAv" id="NYh-SA-oA9"/>
                         <outlet property="twitterButton" destination="ver-gy-oV5" id="Coj-ab-4rD"/>
+                        <outlet property="twitterThree" destination="1aW-6e-HLF" id="nEM-jC-ZpG"/>
                         <outlet property="twitterTwo" destination="1aW-6e-HLF" id="h6H-ty-N4o"/>
-                        <outlet property="youtubeButton" destination="uwr-fn-GAv" id="krv-EY-hyN"/>
-                        <outlet property="youtubeTwo" destination="uwr-fn-GAv" id="Hnc-JZ-qsO"/>
+                        <outlet property="youtubeTwo" destination="RyF-3R-ChJ" id="Iud-cp-Tbp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iMj-tf-nmS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

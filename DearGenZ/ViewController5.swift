@@ -14,16 +14,17 @@ class ViewController5: UIViewController {
     @IBOutlet weak var bioText: UILabel!
     @IBOutlet weak var instagramButton: UIButton!
     @IBOutlet weak var facebookButton: UIButton!
-    @IBOutlet weak var youtubeButton: UIButton!
+    @IBOutlet weak var tubeButton: UIButton!
     @IBOutlet weak var twitterButton: UIButton!
     @IBOutlet weak var instaButton: UIButton!
     @IBOutlet weak var twitterTwo: UIButton!
+    @IBOutlet weak var twitterThree: UIButton!
     @IBOutlet weak var facebookTwo: UIButton!
     @IBOutlet weak var youtubeTwo: UIButton!
     @IBOutlet weak var activistsPage: UILabel!
 
     override func viewDidLoad() {
-       youtubeButton.isHidden = true
+        tubeButton.isHidden = true
         facebookButton.isHidden = true
         twitterButton.isHidden = true
         instagramButton.isHidden =  true
@@ -31,6 +32,7 @@ class ViewController5: UIViewController {
         twitterTwo.isHidden = true
         facebookTwo.isHidden = true
         youtubeTwo.isHidden = true
+        twitterThree.isHidden = true
         
         super.viewDidLoad()
         
@@ -40,7 +42,7 @@ class ViewController5: UIViewController {
 
     @IBAction func gretaButton(_ sender: Any) {
         bioText.text = "Greta Thunberg \n \n Greta is a 17 year old girl from Sweden who is fighting to prevent climate change. Beginning in 2018, Greta started protesting against her country's high carbon emissions. She started a movement she called 'School Strike for Climate', and urged students around the world to skip school to protest against climate change. Since then, Greta has led many protests and even spoken at the United Nations."
-        youtubeButton.isHidden = false
+        tubeButton.isHidden = false
         facebookButton.isHidden = false
         twitterButton.isHidden = false
         instagramButton.isHidden =  false
@@ -48,6 +50,8 @@ class ViewController5: UIViewController {
         twitterTwo.isHidden = true
         facebookTwo.isHidden = true
         youtubeTwo.isHidden = true
+        twitterThree.isHidden = true
+
       
     }
     
@@ -55,18 +59,29 @@ class ViewController5: UIViewController {
     @IBAction func emmaButton(_ sender: Any) {
 
         bioText.text = "Emma Gonzalez \n \n Emma is a 20 year old advocate for gun control. Her presence in activism began after the tragic February 2018 Stoneman Douglas High School shooting in Parkland, Florida. After this tragedy occurred Emma Gonzalez and other Parkland shooting survivors organized March for Our Lives, a country-wide movement for gun control. She began the rally with a powerful speech that lasted 6 minutes and 20 seconds, the length of time it took the shooter to shoot up Stoneman Douglas High School. Since then, she has founded Never Again MSD, a student-led committee advocating for gun control."
-        instaButton.isHidden = false
+        instaButton.isHidden = true
         twitterTwo.isHidden = false
-        facebookTwo.isHidden = false
-        youtubeTwo.isHidden = false
-        youtubeButton.isHidden = true
+        facebookTwo.isHidden = true
+        youtubeTwo.isHidden = true
+        tubeButton.isHidden = true
         facebookButton.isHidden = true
         twitterButton.isHidden = true
         instagramButton.isHidden =  true
+        twitterThree.isHidden = true
+
 
     }
     @IBAction func yaraButton(_ sender: Any) {
         bioText.text = "Yara Shahidi \n \n Yara is a 20 year old actress who is known for her role in Black-ish and its spin-off series Grown-ish. She is also known for her activism for several topics such as feminism and awareness for STEM. Yara founded her own initiative to help high school students take action and discuss social issues together called Yara’s Club. She also worked alongside former first lady Michelle Obama on Michelle’s Let Girls Learn Initiative. Since then, Yara has become a role model for her Generation Z for her presence in the fashion industry, the acting industry, and the world of social activism."
+        instaButton.isHidden = false
+        twitterTwo.isHidden = true
+        facebookTwo.isHidden = false
+        youtubeTwo.isHidden = true
+        tubeButton.isHidden = true
+        facebookButton.isHidden = true
+        twitterButton.isHidden = true
+        instagramButton.isHidden =  true
+        twitterThree.isHidden = false
     }
     @IBAction func kidButton(_ sender: Any) {
         bioText.text = "Robby Novak \n \n Robby is also known as Kid President is an American personality and activist. From a very young age, Robby had osteogenesis imperfecta, a disease that makes the bones brittle. However, he did not let this stop him. Robby became a motivational figure at such a young age sharing positive quotes and outlooks on life with his YouTube Audience. In 2016, he launched a campaign to end Child Hunger in America alongside ConAgra. Robby through this campaign has dedicated his time to packing over 570,000 meals for kids all over the world. Since then, he has continued to motivate Generation Z through his powerful motivational messages and videos."
@@ -100,6 +115,14 @@ class ViewController5: UIViewController {
             }
         }
     }
+    @IBAction func twitterTwo(_ sender: Any) {
+        if let url = URL(string: "https://twitter.com/Emma4Change?s=20") {
+            UIApplication.shared.open(url, options: [:]) {
+                boolean in
+                // do something with the boolean
+                }
+            }
+        }
     @IBAction func facebookButton(_ sender: Any) {
         if let url = URL(string: "https://www.facebook.com/gretathunbergsweden/") {
         UIApplication.shared.open(url, options: [:]) {
